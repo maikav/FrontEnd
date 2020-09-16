@@ -1,5 +1,51 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+ body{
+  background:	seashell;
+  font-family: '';
+  margin: 0em;
+}
+@font-face{
+  font-family: 'Hero';
+  src: url(www.dafontfree.net.url);
+}
+.saleheader{
+  background-color:#FECECC;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  color:grey;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+/* Navigation */
+
+li{
+  list-style: none;
+  display: block;
 }
 
+/* Header */
+.headerimg{
+width:100%;
+}
+
+.section-1{
+  font-size: 28px;
+  text-align: center;
+  background-color: #C1CDCD;
+  color:grey	;
+  padding: 2em;
+}
+
+.link-1 {
+  color: rgb(113, 131, 131);
+}
+.link-2 {
+  color: rgb(113, 131, 131);
+}
+
+.section-2{
+  background-color: rgb(244, 253, 253);
+  color:rgb(37, 37, 37)	;
+  padding: 2em;
+}
