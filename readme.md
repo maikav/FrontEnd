@@ -38,7 +38,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-Having a lot of ideas and a lot of concepts makes it a little hard to focus on the code, i care more about the looks.
+
 
 **Screenshot(s):**
 
