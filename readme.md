@@ -30,8 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--Its getting a little hard to work on this subject as much as i want, when i get stuck i just stop.
-still need to d othe second page.-
+-same as voortgang 1-
 
 
 
@@ -39,8 +38,7 @@ still need to d othe second page.-
 
 ### Stand van zaken
 
--Having a lot of ideas and a lot of concepts makes it a little hard to focus on the code, i care more about the looks.
-
+-dit ging goed & dit was lastig-
 
 **Screenshot(s):**
 
