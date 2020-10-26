@@ -1,57 +1,43 @@
 # Procesverslag
-**Auteur:** -jouw naam-
-
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
+**Auteur:** -Maika van Cleef-
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. -https://flexboxfroggy.com/-
+2. -https://css-tricks.com/snippets/css/a-guide-to-flexbox/-
+3. -https://www.kalyanjewellers.net/categories/earrings.php- (for my jewely images)
+4. https://www.w3schools.com/css/css3_buttons.asp
+5. Philip helped me with the navigation bar (seperating the hamburgar menu and the car) also with putting the "main" products in the center of the page.
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+So i started all over again ,for the third time, it felt like iwas making it from bottom up instead of starting at the top and going to the bottom. 
+What went wrong:
+What went good:
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+
 
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
+-Yeah , i had to star overm my code got to complicated and i got frusterated so i deleted the file to start a new index.-
+i mean.. it looked broken anyways...-
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
-
+-At this point i'm very frustrated, it seems like i forgot how to code all together i need to basically re-learn how to code, im scared i wont finish it for next week, and that motivating,i'm also lacking physical help-
 
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
+-This week started up good, i understood what i wanted to do for the site, im very perticulair and i want it to look good.
+so i keep dweling on the wrong things so its going slow-
 
 
 ## Intake (week 1)
