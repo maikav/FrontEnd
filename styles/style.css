@@ -1,13 +1,14 @@
-
 body{
   margin: 0em;
   font-family: 'Faustina', serif;
   position: relative;
 }
+
 a:hover{
   color:rgb(129, 32, 48) ;
 }
-/* HEADER */
+
+/***** HEADER *****/
 header p:first-of-type{
   background-color:#DDB2A9;
   text-transform: uppercase;
@@ -18,6 +19,7 @@ header p:first-of-type{
   text-align: center;
   margin: 0;
 }
+
 h1 {
   font-family: 'Faustina', serif;
 	font-weight: 100px;
@@ -30,34 +32,40 @@ h1 {
   top:45px;
   transform: translateX(-50%);
 }
+/* ╠ comment: the "Fields" logo */
+
 li,a{
   display: block;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: rgb(68, 67, 67);
   font-size: 13px;
-
 }
+
 a{
   display: flex;
   flex-direction:column;
   justify-content: center;
 }
+
 nav {
   height: 45px;
   display: flex;
   justify-content: space-between;
 } 
+
 nav div:nth-of-type(1) {
   display: none;
   width: 100%;
 }
+
 nav div:nth-of-type(1) ul:nth-of-type(1){
   display: flex;
   justify-content: space-around;
   width: 30%;
   margin-left: 40px;
 }
+
 nav div:nth-of-type(1) ul:nth-of-type(2){
   display: flex;
   justify-content: space-around;
@@ -65,17 +73,21 @@ nav div:nth-of-type(1) ul:nth-of-type(2){
   margin-left: auto;
   margin-right: 40px;
 }
+
 nav div:nth-of-type(2) {
   display: flex;
   width: 100%;
 }
+
 nav div:nth-of-type(2) a:nth-of-type(1) {
   margin-left: 40px;
 }
+
 nav div:nth-of-type(2) a:nth-of-type(2) {
   margin-left: auto;
   margin-right: 40px;
 }
+
 @media (min-width: 1100px) {
   nav div:nth-of-type(2) {
     display: none;
@@ -84,18 +96,17 @@ nav div:nth-of-type(2) a:nth-of-type(2) {
     display: flex;
   }
 }
-ul {
-  padding:0px;
-}
-/* MAIN */
+/* ╠ comment: make the hamburgermenu and cart responsive */
 
-/* Pop Up for Javascript */
+/***** MAIN *****/
+/** Pop Up for Javascript **/
 #popup{
   background-color: rgb(209, 136, 148);
   position: fixed;
   z-index: 5;
   padding: 3em;
 }
+
 #popup button{
   display: block;
   background-color: rgb(194, 194, 194); 
@@ -105,18 +116,21 @@ ul {
   margin: auto auto;
   margin-top: 1em;
 }
+
 #popup button:hover{
   background-color: rgb(73, 32, 41);
 }
+
 #popup a{
   text-align: center;
   padding: 10px;
 }
+
 #popup a:hover{
   color: whitesmoke;
 }
 
-/* Section 1 */
+/** Section 1 **/
 #homepage section:first-of-type{
   height: 35em;
   width: 100%;
@@ -128,43 +142,45 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 @media (max-width: 600px) {
   #homepage section:first-of-type{
     background-image: url(../images/header1.jpg);
 	}
 }
+ 
 #homepage section:first-of-type div{
   padding-left: 3em;
   padding-bottom: 2em;
 }
+
 #homepage div:first-of-type p{
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   margin: 0em;
 }
+
 #homepage div:first-of-type h2{
   font-size: 30px;
   margin: 0em;
   max-width: 300px;
   margin-bottom: 11px;
 }
+
 @media (min-width: 700px){
   #homepage section:first-of-type div{
   position:absolute;
   }
 }
 
-/* Section 2 */
+/** Section 2 (The quote) **/ 
 section:nth-of-type(2){
   background-color: #DBB3A9;
   padding: 2em;
   text-align: center;
 }
-h3{
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-}
+
 #homepage div:nth-of-type(2){
   display: flex;
   align-items: center;
@@ -172,7 +188,7 @@ h3{
   padding-bottom: 0em;
 }
 
-/* Section 3 */
+/** Section 3 **/
 section:nth-of-type(3) p{
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
@@ -181,18 +197,13 @@ section:nth-of-type(3) p{
   padding-left: 3.9em;
   padding-right: 2em;
 }
+
 section:nth-of-type(3) h4{
   font-size: 20px;
   padding-left: 2em;
   padding-right: 7em;
 }
-section:nth-of-type(3) ul p{
-  font-family: Verdana, Tahoma, sans-serif;
-  font-size: 13px;
-  margin-top: 0; 
-  padding-left: 0;
-  padding-right: 0;
-}
+
 section:nth-of-type(3) ul {
   display:flex;
   flex-wrap: wrap;
@@ -200,15 +211,28 @@ section:nth-of-type(3) ul {
   width: 60%;
   padding-left: 0;
 }
+/* ╠ comment: puts it in the middle */
+
 section:nth-of-type(3) ul li{
   flex-basis: 50%;
   text-align: center;
   width: 50%;
   padding-bottom: 1em;
 }
+
+section:nth-of-type(3) ul p{
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-top: 0; 
+  padding-left: 0;
+  padding-right: 0;
+}
+
 section:nth-of-type(3) img {
   margin: auto auto;
 }
+/* ╠ comment: puts them img in the middle of the div  */
+
 @media (max-width: 950px){
   section:nth-of-type(3) p {
     padding-right: 11em;
@@ -217,25 +241,29 @@ section:nth-of-type(3) img {
     flex-basis: 100%;
   }
 } 
-/* comment: without flex-basis 100% the possitioning would not be in the middle */
+/* ╠ comment: without flex-basis 100% the possitioning would not be in the middle (not sure why but it works lol)*/
 
-/* Section 4 */
+/** Section 4 **/ 
 
 section:nth-of-type(4) img{
   width: 100%;
 }
+
 section:nth-of-type(4) p{
   max-width: 70%;
   padding-bottom:1em ;
 }
+
 section:nth-of-type(4) a{
  text-decoration: underline;
  padding-top: 2em;
 }
+
 section:nth-of-type(4) div{
-padding-left:3em ;
-padding-bottom: 2em;
+  padding-left:3em ;
+  padding-bottom: 2em;
 }
+
 section:nth-of-type(4) button{
   background-color: black; 
   border: none;
@@ -247,9 +275,11 @@ section:nth-of-type(4) button{
   font-size: 10px;
   margin-top: 2em;
 }
+
 section:nth-of-type(4) button:hover{
   background-color: rgb(124, 124, 124);
 }
+
 @media (min-width: 950px) {
   section:nth-of-type(4) {
     display: flex;
@@ -266,20 +296,17 @@ section:nth-of-type(4) button:hover{
   section:nth-of-type(4) a{
     text-decoration: underline;
     padding-top: 4em;
+  }
 }
-}
-/* comment: flex to put the next to eachother  */
+/* ╠ comment: flex to put the next to eachother  */
 
-/* Section 5 */
+/* Section 5 (The rating)*/
 section:nth-of-type(5){
   background-color: #D48474;
   padding: 2em;
   text-align: center;
 }
-h3{
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-}
+
 div:nth-of-type(5){
   display: flex;
   align-items: center;
@@ -287,7 +314,7 @@ div:nth-of-type(5){
   padding-bottom: 0em;
 }
 
-/* Section 6 */
+/* Section 6*/
 section:nth-of-type(6){
   height:10em;
   width: 100%;
@@ -299,18 +326,20 @@ section:nth-of-type(6){
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 section:nth-of-type(6) p{
   text-align: center;
   justify-content: center;
   color:whitesmoke;
 }
+
 @media (max-width: 600px) {
   section:nth-of-type(6){
     background-image: url(../images/footerS.png);
 	}
 }
 
-/* Footer */
+/***** FOOTER *****/
 footer section{
   background-color: lightgray;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -318,31 +347,40 @@ footer section{
   justify-content: space-around;
   padding-top: 1em;
 }
+
 footer p{
   font-size: 14px;
   margin: 0em;
   text-decoration: underline;
 }
+
 .copyright{
-background-color: lightgray;
-text-align: center;
-font-size: 10px;
-text-decoration: none;
+  background-color: lightgray;
+  text-align: center;
+  font-size: 10px;
+  text-decoration: none;
 }
+
+footer ul{
+  padding-left:0em
+}
+
 /* ----- PRODUCT.HTML PAGE ----- */
-/* Section 1 */
+/* Section 1  (the product itslef)*/
 #product section:first-of-type img{
   width: 100%;
 }
+
 #product section:first-of-type div{
   padding-left: 3em;
   padding-bottom: 2em;
   margin-right:2em;
 }
+
 #product section:first-of-type a{
   text-decoration: underline;
   padding-top: 2em;
- }
+}
 
 #product section:first-of-type button{
   background-color: black; 
@@ -355,9 +393,11 @@ text-decoration: none;
   font-size: 10px;
   margin-top: 2em;
 }
+
 #product section:first-of-type button:hover{
   background-color: rgb(124, 124, 124);
 }
+
 @media (min-width: 850px) {
   #product section:first-of-type{
     display: flex;
@@ -371,25 +411,28 @@ text-decoration: none;
     max-width: 400px;
     max-height: 400px;
   }
+  #product section:first-of-type ul{
+    padding: 0em;
+  }
+  /* ╠ comment: gets an automatic padding of 40em, this removes it */
 }
+/* ╠ comment: id is added so it does not take the index.html section:first-of-type*/
 
-/* Section 2*/
+/* Section 2 (discount code) */
 section:nth-of-type(2){
   background-color: rgb(212, 132, 116);
   padding: 1em;
   text-align: center;
 }
-h3{
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-}
+
 section:nth-of-type(2) a{
-color: whitesmoke;
+  color: whitesmoke;
 }
+
 section:nth-of-type(2) a:hover{
   color:rgb(129, 32, 48) 
 }
-
+/* ╠ comment: this one doesn't have the # cause i want it to be similair*/
 
 /* Section 3*/
 #product section:nth-of-type(3){
@@ -403,13 +446,42 @@ section:nth-of-type(2) a:hover{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #product section:nth-of-type(3) p{
   text-align: center;
   justify-content: center;
   color:whitesmoke;
 }
+ 
 @media (max-width: 600px) {
   #product section:nth-of-type(3){
     background-image: url(../images/footerS.png);
 	}
+}
+
+/* ----- NO.HTML PAGE (error page) ----- */
+/* Section 1 */
+#error section{
+  display: flex;
+  justify-content: center;
+  text-align: center
+}
+
+#error img{
+  max-width: 200px;
+}
+
+#error a{
+  text-align: center;
+  font-size: 16px;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 1em;
+}
+
+#error a:hover{
+  background-color: rgb(124, 124, 124);
 }

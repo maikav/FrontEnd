@@ -7,24 +7,32 @@
 3. -https://www.kalyanjewellers.net/categories/earrings.php- (for my jewely images)
 4. https://www.w3schools.com/css/css3_buttons.asp
 5. Philip helped me with the navigation bar (seperating the hamburgar menu and the car) also with putting the "main" products in the center of the page.
+6. https://www.youtube.com/watch?v=f4J3uaNNYTE&t=189s&ab_channel=CodingNepal
 
 
 
 ## Eindgesprek (week 7/8)
 
-So i started all over again ,for the third time, 
+So i started all over again ,for the third time, it felt like iwas making it from bottom up instead of starting at the top and going to the bottom. 
+What went wrong:
+- The navigation bar took so long, i wasn't expecting to give it so much time
+- i wanted to make it into a grid layout, but i ended up using flexbox
+What went good:
+- the site came out the way i wanted it, its responsive the way i wanted it to be.
 
 **Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
-
-
+![-screenshot 1-](images/SCS/Final1)
+![-screenshot 2-](images/SCS/Final2)
+![-screenshot 3-](images/SCS/Final3)
+![-screenshot 4-](images/SCS/Final4)
 
 ## Voortgang 3 (week 6)
 
 -Yeah , i had to star overm my code got to complicated and i got frusterated so i deleted the file to start a new index.-
 i mean.. it looked broken anyways...-
 
+![-screenshot 1-](images/SCS/Draft1)
+![-screenshot 2-](images/SCS/Draft2)
 
 ## Voortgang 2 (week 5)
 
